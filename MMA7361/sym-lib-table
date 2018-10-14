@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MMA7361LCR1)(type Legacy)(uri /home/jenny/Documents/PCB/MMA7361LCR1/MMA7361LCR1.lib)(options "")(descr ""))
+  (lib (name MMA7260Q)(type Legacy)(uri /home/jenny/Documents/PCB/MMA7260Q/MMA7260Q.lib)(options "")(descr ""))
+)
