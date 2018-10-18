@@ -364,13 +364,8 @@ F 3 "" H 3200 950 50  0001 C CNN
 	1    3200 950 
 	0    -1   -1   0   
 $EndComp
-Text Label 6900 750  0    50   ~ 0
+Text Label 7000 950  0    50   ~ 0
 VCC
-Wire Wire Line
-	6900 750  6750 750 
-Wire Wire Line
-	6750 750  6750 950 
-Connection ~ 6750 950 
 Text Label 7650 4200 0    50   ~ 0
 VCC
 Wire Wire Line
@@ -391,4 +386,7 @@ $EndComp
 Wire Wire Line
 	2550 950  3200 950 
 Connection ~ 3200 950 
+Wire Wire Line
+	7000 950  6750 950 
+Connection ~ 6750 950 
 $EndSCHEMATC
