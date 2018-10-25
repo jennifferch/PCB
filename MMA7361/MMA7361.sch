@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title ""
+Title "MMA7361 Module"
 Date ""
 Rev ""
-Comp ""
+Comp "CESE"
 Comment1 ""
 Comment2 ""
 Comment3 ""
