@@ -8,7 +8,7 @@ Sheet 2 2
 Title "MMA7361 Module"
 Date ""
 Rev ""
-Comp "CESE"
+Comp "Diseño de circuitos impresos"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -251,7 +251,7 @@ F 1 "+5V" H 1515 2278 50  0000 L CNN
 F 2 "" H 1500 2150 50  0001 C CNN
 F 3 "" H 1500 2150 50  0001 C CNN
 	1    1500 2150
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
@@ -262,7 +262,7 @@ F 1 "PWR_FLAG" H 850 2324 50  0000 C CNN
 F 2 "" H 850 2150 50  0001 C CNN
 F 3 "~" H 850 2150 50  0001 C CNN
 	1    850  2150
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	850  2150 1500 2150
