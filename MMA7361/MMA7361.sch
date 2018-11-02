@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:MMA7361-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "MMA7361 Module"
-Date ""
-Rev ""
+Date "2018-10-09"
+Rev "1"
 Comp "Diseño de circuitos impresos"
 Comment1 ""
 Comment2 ""
