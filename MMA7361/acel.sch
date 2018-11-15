@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:MMA7361-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C C4
+L MMA7361-rescue:C-Device C4
 U 1 1 5BC120D2
 P 3000 2750
 F 0 "C4" H 3115 2796 50  0000 L CNN
@@ -25,7 +26,7 @@ F 3 "~" H 3000 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C2
+L MMA7361-rescue:CP1-Device C2
 U 1 1 5BC123C9
 P 2300 2750
 F 0 "C2" H 2400 2800 50  0000 L CNN
@@ -36,7 +37,7 @@ F 3 "~" H 2300 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Management:RT9701 U1
+L MMA7361-rescue:RT9701-Power_Management U1
 U 1 1 5BC26997
 P 3950 2700
 F 0 "U1" H 3950 3067 50  0000 C CNN
@@ -47,7 +48,7 @@ F 3 "https://www.richtek.com/assets/product_file/RT9701/DS9701-16.pdf" H 3950 27
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C6
+L MMA7361-rescue:CP1-Device C6
 U 1 1 5BC26B05
 P 5000 2750
 F 0 "C6" H 5115 2796 50  0000 L CNN
@@ -58,7 +59,7 @@ F 3 "~" H 5000 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L MMA7361-rescue:GND-power #PWR03
 U 1 1 5BC26BFC
 P 3950 3050
 F 0 "#PWR03" H 3950 2800 50  0001 C CNN
@@ -69,7 +70,7 @@ F 3 "" H 3950 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L MMA7361-rescue:C-Device C1
 U 1 1 5BC2906F
 P 7500 2650
 F 0 "C1" V 7700 2650 50  0000 C CNN
@@ -80,7 +81,7 @@ F 3 "~" H 7500 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C3
+L MMA7361-rescue:C-Device C3
 U 1 1 5BC2913B
 P 6550 2350
 F 0 "C3" V 6802 2350 50  0000 C CNN
@@ -91,7 +92,7 @@ F 3 "~" H 6550 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C5
+L MMA7361-rescue:C-Device C5
 U 1 1 5BC292F0
 P 7000 2500
 F 0 "C5" V 7300 2500 50  0000 C CNN
@@ -102,7 +103,7 @@ F 3 "~" H 7000 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D1
+L MMA7361-rescue:LED-Device D1
 U 1 1 5BC2963F
 P 10850 3750
 F 0 "D1" V 10750 3550 50  0000 C CNN
@@ -113,7 +114,7 @@ F 3 "~" H 10850 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR04
+L MMA7361-rescue:GND-power #PWR04
 U 1 1 5BC29FE3
 P 10850 4700
 F 0 "#PWR04" H 10850 4450 50  0001 C CNN
@@ -124,7 +125,7 @@ F 3 "" H 10850 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L MMA7361-rescue:R-Device R1
 U 1 1 5BC2A087
 P 10850 2600
 F 0 "R1" H 10700 2600 50  0000 C CNN
@@ -152,7 +153,7 @@ Connection ~ 3950 2900
 Wire Wire Line
 	3950 2900 5000 2900
 $Comp
-L power:GND #PWR02
+L MMA7361-rescue:GND-power #PWR02
 U 1 1 5BC2D65B
 P 6300 3250
 F 0 "#PWR02" H 6300 3000 50  0001 C CNN
@@ -163,7 +164,7 @@ F 3 "" H 6300 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L MMA7361-rescue:C-Device C7
 U 1 1 5BC2F1C2
 P 7950 2950
 F 0 "C7" V 8110 2950 50  0000 C CNN
@@ -195,7 +196,7 @@ Wire Wire Line
 	4450 2700 4450 2600
 Connection ~ 4450 2600
 $Comp
-L power:PWR_FLAG #FLG0101
+L MMA7361-rescue:PWR_FLAG-power #FLG0101
 U 1 1 5BC4F7C2
 P 4450 3050
 F 0 "#FLG0101" H 4450 3125 50  0001 C CNN
@@ -209,9 +210,11 @@ Wire Wire Line
 	4450 3050 3950 3050
 Connection ~ 3950 3050
 $Comp
-L Connector_Generic:Conn_01x05 J1
+L MMA7361-rescue:Conn_01x05-Connector_Generic J1
 U 1 1 5BC514EF
 P 8850 4600
+AR Path="/5BC514EF" Ref="J1"  Part="1" 
+AR Path="/5BC12037/5BC514EF" Ref="J1"  Part="1" 
 F 0 "J1" H 8930 4642 50  0000 L CNN
 F 1 "Conn_01x05" H 8930 4551 50  0001 L CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 8850 4600 50  0001 C CNN
@@ -220,9 +223,11 @@ F 3 "~" H 8850 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J2
+L MMA7361-rescue:Conn_01x05-Connector_Generic J2
 U 1 1 5BC52AEF
 P 5750 2600
+AR Path="/5BC52AEF" Ref="J2"  Part="1" 
+AR Path="/5BC12037/5BC52AEF" Ref="J2"  Part="1" 
 F 0 "J2" H 5829 2596 50  0000 L CNN
 F 1 "Conn_01x05" H 5830 2551 50  0001 L CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 5750 2600 50  0001 C CNN
@@ -242,7 +247,7 @@ Wire Wire Line
 	1450 2600 2300 2600
 Connection ~ 2300 2600
 $Comp
-L power:+5V #PWR0101
+L MMA7361-rescue:+5V-power #PWR0101
 U 1 1 5BC5B9BB
 P 1450 2600
 F 0 "#PWR0101" H 1450 2450 50  0001 C CNN
@@ -253,7 +258,7 @@ F 3 "" H 1450 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
+L MMA7361-rescue:PWR_FLAG-power #FLG0102
 U 1 1 5BC6426B
 P 800 2600
 F 0 "#FLG0102" H 800 2675 50  0001 C CNN
@@ -286,7 +291,7 @@ F 7 "Unavailable" H 10100 2500 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0102
+L MMA7361-rescue:VCC-power #PWR0102
 U 1 1 5BCC985E
 P 8300 2950
 F 0 "#PWR0102" H 8300 2800 50  0001 C CNN
@@ -309,7 +314,7 @@ SelfTest
 Wire Wire Line
 	9750 2250 10150 2250
 $Comp
-L power:VCC #PWR0103
+L MMA7361-rescue:VCC-power #PWR0103
 U 1 1 5BCDE47F
 P 5000 2450
 F 0 "#PWR0103" H 5000 2300 50  0001 C CNN
@@ -323,7 +328,7 @@ Wire Wire Line
 	5000 2450 5000 2600
 Connection ~ 5000 2600
 $Comp
-L power:VCC #PWR0104
+L MMA7361-rescue:VCC-power #PWR0104
 U 1 1 5BD65502
 P 10850 1700
 F 0 "#PWR0104" H 10850 1550 50  0001 C CNN
@@ -410,7 +415,7 @@ Connection ~ 8300 2950
 Wire Wire Line
 	8300 2950 8550 2950
 $Comp
-L Mechanical:MountingHole F1
+L MMA7361-rescue:MountingHole-Mechanical F1
 U 1 1 5BDB6852
 P 1750 6450
 F 0 "F1" H 1850 6496 50  0000 L CNN
@@ -421,7 +426,7 @@ F 3 "~" H 1750 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole F2
+L MMA7361-rescue:MountingHole-Mechanical F2
 U 1 1 5BDB6900
 P 1750 6950
 F 0 "F2" H 1850 6996 50  0000 L CNN
@@ -432,7 +437,7 @@ F 3 "~" H 1750 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole F3
+L MMA7361-rescue:MountingHole-Mechanical F3
 U 1 1 5BDB69CF
 P 3100 6450
 F 0 "F3" H 3200 6496 50  0000 L CNN

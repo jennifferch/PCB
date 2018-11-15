@@ -1,43 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MMA7260Q_MMA7260Q
+# +5V-power
 #
-DEF MMA7260Q_MMA7260Q U 0 40 Y Y 1 L N
-F0 "U" -401 751 50 H V L BNN
-F1 "MMA7260Q_MMA7260Q" -400 -800 50 H V L BNN
-F2 "QFN-16" 100 750 50 H I L BNN
-F3 "NXP Semiconductors" 550 600 50 H I L BNN
-F4 "MMA7260Q" 500 -650 50 H I L BNN "Field5"
-F5 "QFN-16 NXP Semiconductors" 100 -800 50 H I L BNN "Field6"
-F6 "None" 1050 50 50 H I L BNN "Field7"
-F7 "Unavailable" 950 -200 50 H I L BNN "Field8"
-DRAW
-P 2 0 0 10 -400 -700 -400 700 N
-P 2 0 0 10 -400 700 400 700 N
-P 2 0 0 10 400 -700 -400 -700 N
-P 2 0 0 10 400 700 400 -700 N
-X N/C 1 -600 500 200 R 40 40 0 0 N
-X YOUT 3 -600 200 200 R 40 40 0 0 O
-X VSS 5 -600 -100 200 R 40 40 0 0 W
-X VDD 6 -600 -250 200 R 40 40 0 0 W
-X Sleep 7 -600 -450 200 R 40 40 0 0 I
-X g-Select 10 600 -100 200 L 40 40 1 0 I
-X N/C 11 600 150 200 L 40 40 1 0 N
-X N/C 12 600 300 200 L 40 40 1 0 N
-X SelfTest 13 600 450 200 L 40 40 1 0 I
-X XOUT 2 -600 350 200 R 40 40 1 0 O
-X ZOUT 4 -600 50 200 R 40 40 1 0 O
-X N/C 8 600 -400 200 L 40 40 1 0 N
-X 0g-Detect 9 600 -250 200 L 40 40 1 0 I
-ENDDRAW
-ENDDEF
-#
-# MMA7361-rescue_+5V-power
-#
-DEF MMA7361-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MMA7361-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -48,11 +16,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MMA7361-rescue_C-Device
+# C-Device
 #
-DEF MMA7361-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "MMA7361-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -66,11 +34,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMA7361-rescue_CP1-Device
+# CP1-Device
 #
-DEF MMA7361-rescue_CP1-Device C 0 10 N N 1 F N
+DEF CP1-Device C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "MMA7361-rescue_CP1-Device" 25 -100 50 H V L CNN
+F1 "CP1-Device" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -86,11 +54,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMA7361-rescue_Conn_01x05-Connector_Generic
+# Conn_01x05-Connector_Generic
 #
-DEF MMA7361-rescue_Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "MMA7361-rescue_Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
+F1 "Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -111,11 +79,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMA7361-rescue_GND-power
+# GND-power
 #
-DEF MMA7361-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "MMA7361-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -124,11 +92,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MMA7361-rescue_LED-Device
+# LED-Device
 #
-DEF MMA7361-rescue_LED-Device D 0 40 N N 1 F N
+DEF LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "MMA7361-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -147,11 +115,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMA7361-rescue_MountingHole-Mechanical
+# MountingHole-Mechanical
 #
-DEF MMA7361-rescue_MountingHole-Mechanical MH 0 40 Y Y 1 F N
+DEF MountingHole-Mechanical MH 0 40 Y Y 1 F N
 F0 "MH" 0 200 50 H V C CNN
-F1 "MMA7361-rescue_MountingHole-Mechanical" 0 125 50 H V C CNN
+F1 "MountingHole-Mechanical" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -162,11 +130,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# MMA7361-rescue_PWR_FLAG-power
+# PWR_FLAG-power
 #
-DEF MMA7361-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+DEF PWR_FLAG-power #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "MMA7361-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F1 "PWR_FLAG-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -175,11 +143,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# MMA7361-rescue_R-Device
+# R-Device
 #
-DEF MMA7361-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "MMA7361-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -192,11 +160,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMA7361-rescue_RT9701-Power_Management
+# RT9701-Power_Management
 #
-DEF MMA7361-rescue_RT9701-Power_Management U 0 30 Y Y 1 F N
+DEF RT9701-Power_Management U 0 30 Y Y 1 F N
 F0 "U" 0 250 50 H V C CNN
-F1 "MMA7361-rescue_RT9701-Power_Management" 200 -150 50 H V C CNN
+F1 "RT9701-Power_Management" 200 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -212,11 +180,11 @@ X VOUT 5 500 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMA7361-rescue_VCC-power
+# VCC-power
 #
-DEF MMA7361-rescue_VCC-power #PWR 0 0 Y Y 1 F P
+DEF VCC-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MMA7361-rescue_VCC-power" 0 150 50 H V C CNN
+F1 "VCC-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
