@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.0.0-fee4fd1~66~ubuntu16.04.1"
+      "Version":     "(5.0.1)-3"
     },
-    "CreationDate":  "2018-10-28T21:05:27-03:00"
+    "CreationDate":  "2018-11-23T05:02:51-03:00"
   },
   "GeneralSpecs":
   {
@@ -15,12 +15,12 @@
     {
       "Name": "MMA7361",
       "GUID": "4D4D41373336312E6B696361645F7063",
-      "Revision": "rev?"
+      "Revision": "1.1"
     },
     "Size":
     {
-      "X": 22.452,
-      "Y": 20.420
+      "X": 35.600,
+      "Y": 22.100
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -29,10 +29,10 @@
   [
     {
       "Layers": "Outer",
-      "PadToPad":  0.100,
-      "PadToTrack":  0.100,
-      "TrackToTrack":  0.250,
-      "MinLineWidth":  0.500,
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.320,
       "TrackToRegion":  0.508,
       "RegionToRegion":  0.508
     }
@@ -65,11 +65,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "MMA7361-B.SilkS.gbr",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "MMA7361-F.Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
@@ -82,16 +77,6 @@
     {
       "Path":  "MMA7361-Edge.Cuts.gbr",
       "FileFunction":  "Profile",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "MMA7361-F.Fab.gbr",
-      "FileFunction":  "AssemblyDrawing,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "MMA7361-B.Fab.gbr",
-      "FileFunction":  "AssemblyDrawing,Bot",
       "FilePolarity":  "Positive"
     }
   ],
@@ -129,10 +114,6 @@
     {
       "Type":  "SolderPaste",
       "Notes":  "Layer B.Paste"
-    },
-    {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
     }
   ]
 }

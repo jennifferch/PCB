@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name MMA7361LCR1)(type Legacy)(uri lib/MMA7361LCR1.lib)(options "")(descr ""))
-  (lib (name MMA7260Q)(type Legacy)(uri ${KIPRJMOD}/lib/MMA7260Q.lib)(options "")(descr ""))
   (lib (name MMA7361-rescue)(type Legacy)(uri ${KIPRJMOD}/MMA7361-rescue.lib)(options "")(descr ""))
+  (lib (name MMA7361)(type Legacy)(uri ${KIPRJMOD}/Librerias/Eeschema/MMA7361.lib)(options "")(descr ""))
 )
